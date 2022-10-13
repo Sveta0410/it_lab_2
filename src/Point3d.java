@@ -64,6 +64,6 @@ public class Point3d {
                 +Math.pow(this.getY()-that.getY(), 2)
                 +Math.pow(this.getZ()-that.getZ(), 2));
 
-        return (dist);
+        return Math.round(dist*100.0)/100.0;
     }
 }
