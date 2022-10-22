@@ -3,9 +3,9 @@
  **/
 public class Point2d {
 /** координата X **/
-    double xCoord;
+    private double xCoord;
 /** координата Y **/
-    double yCoord;
+    private double yCoord;
 /** Конструктор инициализации **/
     public Point2d ( double x, double y) {
         xCoord = x;

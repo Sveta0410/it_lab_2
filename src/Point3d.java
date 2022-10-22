@@ -7,8 +7,7 @@ public class Point3d extends Point2d{
 
     /** Конструктор инициализации **/
     public Point3d ( double x, double y, double z) {
-        xCoord = x;
-        yCoord = y;
+        super(x, y);
         zCoord = z;
     }
     /** Конструктор по умолчанию. **/
